@@ -854,7 +854,7 @@ img {
     fill: transparent; 
 }
 
-.input-privacy:checked + label .privacy-icon {
+.input-privacy:checked + .comment-label .user-privacy-span .privacy-icon {
     background-color: var(--icon-background);
     fill: var(--icon-color);
     border: none;
