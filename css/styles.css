@@ -859,7 +859,7 @@ img {
     border: none;
 }
 
-.input-privacy:checked + .comment-label .user-privacy-span svg{
+.input-privacy:checked + .comment-label .user-privacy-span .privacy-icon{
     fill: var(--icon-color);
 }
 
