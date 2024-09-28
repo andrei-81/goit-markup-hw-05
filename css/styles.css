@@ -32,13 +32,6 @@ img {
     display: block;
 }
 
-.body-container {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 1440px;
-    align-items: center;
-}
-
 .container {
     width: 1440px;
     margin: 0 auto;
