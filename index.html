@@ -363,15 +363,60 @@
                     <p class="subs-name">Subscribe</p>
                     <form class="subs-form">
                         <label class="subs-label">
-                            <input class="subs-input" type="email" placeholder="E-mail" />
+                            <input name="subs-input" class="subs-input" type="email" placeholder="E-mail" />
                         </label>
-                        <button class="subs-button">Subscribe <svg class="icon-subs" width="24" height="24">
+                        <button type="submit" class="subs-button">Subscribe <svg class="icon-subs" width="24" height="24">
                             <use href="./images/icons.svg#send-icon" ></use>
                         </svg></button>
                     </form>
                 </div>
             </div>
         </footer>
+
+        <div class="modal-block"> 
+            <div class="modal-window">
+                <button type="button" class="modal-close-button">
+                    <svg class="close-icon-modal" width="8" height="8">
+                        <use href="./images/icons.svg#close-icon" ></use>
+                    </svg>
+                </button>
+                <p class="modal-name">Leave your contacts and we will call you back</p>
+                <form class="modal-form">
+                    <div class="modal-form-content input-name-content">
+                        <label for="user-name" class="name-label modal-label">Name</label>
+                        <div class="modal-input-block-name modal-input-block">
+                            <input name="user-name" class="user-name modal-input" type="text"/>
+                            <svg class="modal-icon" width="18" height="24"></svg>
+                                <use href="./images/icons.svg#person-icon" ></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="modal-form-content input-phone-content">
+                        <label for="user-phone" class="phone-label modal-label">Phone</label>
+                        <div class="modal-input-block-phone modal-input-block">
+                            <input name="user-phone" class="user-phone modal-input" type="tel"/>
+                            <svg class="phone-icon modal-icon" width="18" height="24"></svg>
+                                <use href="./images/icons.svg#phone-icon" ></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="modal-form-content input-email-content">
+                        <label for="user-email" class="email-label modal-label">Email</label>
+                        <div class="modal-input-block-email modal-input-block">
+                            <input name="user-email" class="user-email modal-input" type="email"/>
+                            <svg class="email-icon modal-icon" width="18" height="24"></svg>
+                                <use href="./images/icons.svg#mail-icon" ></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="modal-form-content input-comment-content"></div>
+                        <label for="user-comment" class="comment-label modal-label">Comment</label>
+                        <textarea name="user-comment" class="user-comment" rows="5" placeholder="Text input"></textarea>
+                    </div>
+                <form>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
