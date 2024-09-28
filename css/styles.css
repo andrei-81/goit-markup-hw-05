@@ -31,14 +31,18 @@ img {
 .body-container {
     display: flex;
     flex-direction: column;
-    flex-basis: 1158px;
+    flex-basis: 1440px;
     align-items: center;
 }
 
 .container {
-    width: 1158px;
+    width: 1440px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.third-section-container {
+    max-width: 1128px;
 }
 
 .header-container{
@@ -323,6 +327,7 @@ img {
     align-items: center;
     background-color: #F4F4FD;
     padding: 120px 0;
+    
 }
 
 
@@ -388,9 +393,15 @@ img {
 }
 
 .portfolio {
+    display: flex;
     padding-top: 120px; 
     padding-bottom: 120px;
 }
+
+.fourth-section-container {
+    max-width: 1128px;
+}
+
 
 .portfolio-title {
     color: #2E2F42;
@@ -539,7 +550,6 @@ img {
     display: flex;
     flex-direction: column;
     max-width: 264px;
-    margin-right: 120px;
 }
 
 .social-midia-block-ft {
@@ -566,6 +576,9 @@ img {
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    justify-content: space-between;
+    padding-left: 48px;
+    padding-right: 48px;
 }
 
 .social-link{
@@ -621,3 +634,62 @@ img {
 .footer-social-block {
     width: 208px;
 }
+
+.subs-name {
+    margin-bottom: 16px;
+    font-weight: 500; 
+    font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff; 
+}
+
+.subs-form {
+    display: flex;
+    gap: 24px;
+}
+
+.subs-label {
+    gap: 24px;
+}
+
+.subs-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff; 
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
+    border-radius: 4px;
+    color: #ffffff; 
+}
+
+.subs-input::placeholder {
+    color: #ffffff;
+}
+
+.subs-button {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none; 
+    border-radius: 4px; 
+}
+
+.icon-subs {
+    margin-left: 16px; 
+} 
+
