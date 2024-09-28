@@ -857,11 +857,12 @@ img {
 .input-privacy:checked + .comment-label .user-privacy-span {
     background-color: var(--icon-background);
     border: none;
-}
-
-.input-privacy:checked + .comment-label .user-privacy-span svg {
     fill: var(--icon-color);
 }
+
+/* .input-privacy:checked + .comment-label .user-privacy-span svg {
+    fill: var(--icon-color);
+} */
 
 .privacy-link {
     color: var(--iris)
