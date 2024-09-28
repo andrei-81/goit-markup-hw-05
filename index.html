@@ -372,8 +372,7 @@
                 </div>
             </div>
         </footer>
-
-        <div class="modal-overlay"> 
+        <div class="modal-overlay overlay-modal">
             <div class="modal">
                 <button type="button" class="modal-close-button">
                     <svg class="close-icon-modal" width="8" height="8">
@@ -413,6 +412,22 @@
                         <label for="user-comment" class="comment-label modal-label">Comment</label>
                         <textarea name="user-comment" id="user-comment"  class="user-comment" rows="5" placeholder="Text input"></textarea>
                     </div>
+                    <div class="modal-form-content input-agreement-content">
+                        <input id="user-privacy" name="user-privacy" class="input-privacy visually-hidden" type="checkbox"  value="true"/>
+                        <div>
+                            <label 
+                                for="user-privacy" 
+                                class="comment-label modal-label">I accept the terms and conditions of the
+                                <span class="user-privacy-span">
+                                    <svg class="privacy-icon" width="10" height="8">
+                                        <use href="./images/icons.svg#checkbox-icon" ></use>
+                                    </svg>
+                                </span>
+                                <a class="privacy-link" href="./index.html">Privacy Policy</a>
+                            </label>    
+                        </div>
+                    </div>
+                    <button class="modal-submit" type="submit">Send</button>
                 </form>
             </div> <!-- modal -->
         </div> <!-- modal-overlay -->
